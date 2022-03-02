@@ -27,4 +27,4 @@ foreach (string s in split)
 if (success && (Convert.ToInt32(s) > 0)) 
 count = count + 1;
 }
-Console.WriteLine(count);
+Console.WriteLine($"ведено чисел больше 0 : {count}");
